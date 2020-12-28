@@ -1,0 +1,29 @@
+{
+	"ADMIN": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_CNTASUIONTSGU_110": {
+				"name": "creacionCuenta"
+			}
+		},
+		"Queries": {
+			"Q_CLIEETET_TO39": {
+				"name": "ClienteQuery"
+			}
+		},
+		"SubForms": {
+		}
+	},
+	"Entities": {
+		"EN_1IFJRRYRE_272": {
+			"name": "TipoBusquedaCedula"
+		},
+		"EN_CLIENTEUR_816": {
+			"name": "Cliente"
+		},
+		"EN_TIPOCUENT_995": {
+			"name": "TipoCuenta"
+		}
+	}
+}

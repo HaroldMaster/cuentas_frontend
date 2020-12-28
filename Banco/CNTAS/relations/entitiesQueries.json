@@ -1,0 +1,9 @@
+{
+	"EN_CLIENTEUR_816": {
+		"queries": {
+			"Q_CLIEETET_TO39": {
+				"$ref": "../ADMIN/queries/Q_CLIEETET_TO39.json#"
+			}
+		}
+	}
+}

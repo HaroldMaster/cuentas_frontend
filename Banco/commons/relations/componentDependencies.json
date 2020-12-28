@@ -1,0 +1,60 @@
+{
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_1IFJRRYRE_272": {
+			"labels": [
+			]
+		},
+		"EN_CLIENTEUR_816": {
+			"labels": [
+			]
+		},
+		"EN_TIPOCUENT_995": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+		"T_CNTASUIONTSGU_110": {
+			"blis": [
+			],
+			"entities": {
+				"EN_1IFJRRYRE_272": [
+					"AT02_1NFJAZRB272"
+				],
+				"EN_CLIENTEUR_816": [
+					"AT30_APELLIDD816",
+					"AT42_IDCLIETE816",
+					"AT67_NOMBRECQ816",
+					"AT82_CEDULATW816"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_CDULAZLSY_32122"
+			],
+			"queries": {
+				"Q_CLIEETET_TO39": [
+					"QM_CLIEEET3TT507_01",
+					"QM_CLIEET33T3712_02",
+					"QM_CLIEETOETE249_03",
+					"QM_CLIEETTTOT672_04"
+				]
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+		"Q_CLIEETET_TO39": {
+			"labels": [
+			]
+		}
+	}
+}
