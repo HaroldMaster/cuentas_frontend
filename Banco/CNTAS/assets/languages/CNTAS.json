@@ -1,7 +1,13 @@
 {
 	"CNTAS": {
 		"LBL": {
-			"LBL_CNTAS_CDULAZLSY_32122": "C\u00e9dula"
+			"LBL_CNTAS_CDULAZLSY_32122": "C\u00e9dula",
+			"LBL_CNTAS_CLIENTEFQ_43709": "Cliente",
+			"LBL_CNTAS_CREARCUNA_51334": "Crear Cuenta",
+			"LBL_CNTAS_GUARDARXZ_87389": "Guardar",
+			"LBL_CNTAS_NROCUENTT_97557": "Nro. Cuenta",
+			"LBL_CNTAS_SALDOZNQH_30727": "Saldo",
+			"LBL_CNTAS_TIPOCUEAT_70539": "Tipo de Cuenta"
 		},
 		"MSG": {
 		}

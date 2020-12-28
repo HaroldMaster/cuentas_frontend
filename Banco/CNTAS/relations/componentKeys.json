@@ -22,6 +22,9 @@
 		"EN_CLIENTEUR_816": {
 			"name": "Cliente"
 		},
+		"EN_CUENTAPVV_916": {
+			"name": "Cuenta"
+		},
 		"EN_TIPOCUENT_995": {
 			"name": "TipoCuenta"
 		}

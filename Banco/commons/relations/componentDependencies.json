@@ -10,6 +10,10 @@
 			"labels": [
 			]
 		},
+		"EN_CUENTAPVV_916": {
+			"labels": [
+			]
+		},
 		"EN_TIPOCUENT_995": {
 			"labels": [
 			]
@@ -28,6 +32,14 @@
 					"AT42_IDCLIETE816",
 					"AT67_NOMBRECQ816",
 					"AT82_CEDULATW816"
+				],
+				"EN_CUENTAPVV_916": [
+					"AT79_BANCOLXJ916",
+					"AT85_SALDONLN916",
+					"AT96_CLIENTEE916"
+				],
+				"EN_TIPOCUENT_995": [
+					"AT35_AHORROSS995"
 				]
 			},
 			"externalEntities": {
@@ -37,7 +49,12 @@
 			"header": [
 			],
 			"labels": [
-				"LBL_CNTAS_CDULAZLSY_32122"
+				"LBL_CNTAS_CDULAZLSY_32122",
+				"LBL_CNTAS_CLIENTEFQ_43709",
+				"LBL_CNTAS_CREARCUNA_51334",
+				"LBL_CNTAS_NROCUENTT_97557",
+				"LBL_CNTAS_SALDOZNQH_30727",
+				"LBL_CNTAS_TIPOCUEAT_70539"
 			],
 			"queries": {
 				"Q_CLIEETET_TO39": [

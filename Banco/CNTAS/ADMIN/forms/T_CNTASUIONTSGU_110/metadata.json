@@ -11,6 +11,18 @@
 			"isContextEntity": null,
 			"moduleId": "CNTAS",
 			"related": false
+		},
+		{
+			"entityId": "EN_CUENTAPVV_916",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_TIPOCUENT_995",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
 		}
 	],
 	"queries": [

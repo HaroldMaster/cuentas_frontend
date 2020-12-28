@@ -14,5 +14,33 @@
 		],
 		"entityName": "Cliente",
 		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "saldo",
+		"controlId": "VA_SALDOQASXSLOCQP_614786",
+		"controlName": "saldo",
+		"controlType": "TextInputBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_724786",
+		"controlName": "VA_VAIMAGEBUTTONNN_724786",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "TipoBusquedaCedula",
+		"eventsType": "visualAttributeEventType"
 	}
 ]
