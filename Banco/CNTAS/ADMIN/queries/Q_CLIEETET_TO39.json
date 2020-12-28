@@ -64,8 +64,8 @@
 			"queryMemberId": "QM_CLIEEET3TT507_01",
 			"select": true,
 			"selectStr": "T",
-			"where": false,
-			"whereStr": "F"
+			"where": true,
+			"whereStr": "T"
 		},
 		{
 			"alias": "nombre",

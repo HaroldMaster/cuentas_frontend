@@ -22,6 +22,7 @@
 	"Forms": {
 		"T_CNTASUIONTSGU_110": {
 			"blis": [
+				"BLI9427_bli_buscarcliente"
 			],
 			"entities": {
 				"EN_1IFJRRYRE_272": [
@@ -58,6 +59,8 @@
 			],
 			"queries": {
 				"Q_CLIEETET_TO39": [
+					"",
+					"",
 					"QM_CLIEEET3TT507_01",
 					"QM_CLIEET33T3712_02",
 					"QM_CLIEETOETE249_03",

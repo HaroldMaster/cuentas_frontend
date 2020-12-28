@@ -30,11 +30,11 @@
 			"bddType": "varchar",
 			"dataType": "VARCHAR",
 			"direction": "in",
-			"entityId": "EN_1IFJRRYRE_272",
+			"entityId": "",
 			"format": "",
 			"name": "@i_cedula",
-			"type": "ATTRIBUTE",
-			"value": ""
+			"type": "CUSTOM",
+			"value": "cedula"
 		}
 	],
 	"name": "BLI_buscarCliente",
