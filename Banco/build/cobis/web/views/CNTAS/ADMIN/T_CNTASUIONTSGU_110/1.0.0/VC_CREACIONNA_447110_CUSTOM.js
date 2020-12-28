@@ -41,15 +41,35 @@ task.change.VA_SALDOQASXSLOCQP_614786 = function(  entities, changedEventArgs ) 
 };
 
 	
+
+
+// (Button) 
+task.executeCommand.CM_TCNTASUI_SNN = function(entities, executeCommandEventArgs) {
+    executeCommandEventArgs.commons.execServer = true;
+    
+    //executeCommandEventArgs.commons.serverParameters.entityName = true;
+
+};
+
+	
+//Start signature to Callback event to CM_TCNTASUI_SNN
+task.executeCommandCallback.CM_TCNTASUI_SNN = function(entities, executeCommandCallbackEventArgs) {
+     //here your code
+};
+
+
+	
 //ClienteQuery Entity: Cliente
 task.executeQuery.Q_CLIEETET_TO39 = function(executeQueryEventArgs){
     executeQueryEventArgs.commons.execServer = true;
+    executeQueryEventArgs.parameters.tipo = executeQueryEventArgs.commons.api.vc.model.TipoCuenta.tipo;
     //executeQueryEventArgs.commons.serverParameters.Cliente = true;
     executeQueryEventArgs.parameters.cedula = executeQueryEventArgs.commons.api.vc.model.TipoBusquedaCedula.cedula;
     console.log(typeof  executeQueryEventArgs.parameters.cedula);
     if( executeQueryEventArgs.parameters.cedula === ''){
     executeQueryEventArgs.commons.api.viewState.hide("G_CREACIOUUN_983786");
     }
+    
 };
 
 	

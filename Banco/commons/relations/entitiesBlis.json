@@ -3,6 +3,40 @@
 		{
 			"entities": {
 				"inputEntity": [
+					{
+						"entityId": "EN_CUENTAPVV_916",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI3281_bli_insertar_cuenta_ahorros",
+			"nameBli": "Bli_insertar_cuenta_ahorros"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CUENTAPVV_916",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI7954_bli_insertar_cuenta_corriente",
+			"nameBli": "Bli_insertar_cuenta_corriente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 				],
 				"outputEntity": [
 				],

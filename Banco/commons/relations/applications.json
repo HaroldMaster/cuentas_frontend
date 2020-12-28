@@ -5,7 +5,7 @@
 		"forms": {
 			"CNTAS": [
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "CNTAS",
 					"name": "creacionCuenta",
 					"subModuleId": "ADMIN",

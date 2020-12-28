@@ -1,0 +1,66 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_CUENTAPVV_916",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "Cuentas"
+			},
+			"name": "Cuenta"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "I"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "7067134"
+		},
+		{
+			"attributeId": "AT85_SALDONLN916",
+			"bddType": "float",
+			"dataType": "DOUBLE",
+			"direction": "in",
+			"entityId": "EN_CUENTAPVV_916",
+			"format": "",
+			"name": "@i_saldo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "Bli_insertar_cuenta_ahorros",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI3281_bli_insertar_cuenta_ahorros",
+	"patternName": "Bli_insertar_cuenta_ahorros",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g5_sp_cuenta_ahorros",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

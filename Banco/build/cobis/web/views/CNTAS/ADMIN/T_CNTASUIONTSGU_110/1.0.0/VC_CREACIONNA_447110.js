@@ -408,10 +408,7 @@ function VC_CREACIONNA_447110(cobisMainModule) {
                 style: []
             };
             $scope.vc.viewState.QV_TV39_HMX33.column = {};
-            $scope.vc.grids.QV_TV39_HMX33.editable = {
-                mode: 'inline',
-                confirmation: false
-            };
+            $scope.vc.grids.QV_TV39_HMX33.editable = false;
             $scope.vc.grids.QV_TV39_HMX33.events = {
                 customRowClick: function(e, controlId, entity, idGrid, commandName) {
                     var grid = $scope.vc.getElementGrid(idGrid);
@@ -663,44 +660,8 @@ function VC_CREACIONNA_447110(cobisMainModule) {
                     hidden: $scope.vc.viewState.QV_TV39_HMX33.column.idCliente.hidden
                 });
             }
-            $scope.vc.viewState.QV_TV39_HMX33.column.edit = {
-                element: []
-            };
-            $scope.vc.viewState.QV_TV39_HMX33.column["delete"] = {
-                element: []
-            };
-            $scope.vc.viewState.QV_TV39_HMX33.column.cmdEdition = {};
-            $scope.vc.viewState.QV_TV39_HMX33.column.cmdEdition.hidden = (!designer.enums.hasFlag(designer.constants.mode.Query, $scope.vc.mode)) ? false : true;
-            $scope.vc.grids.QV_TV39_HMX33.columns.push({
-                field: 'cmdEdition',
-                title: ' ',
-                command: [{
-                    name: "edit",
-                    text: "{{'DSGNR.SYS_DSGNR_LBLEDIT00_00005'|translate}}",
-                    cssMap: "{'btn': true, 'btn-default': true, 'cb-row-image-button': true" + ", 'k-grid-edit': !vc.viewState.G_CREACIOENN_201786.disabled}",
-                    template: "<a ng-class='vc.getCssClass(\"edit\", " + "vc.viewState.QV_TV39_HMX33.column.edit.element[dataItem.uid].style, #:cssMap#, vc.viewState.QV_TV39_HMX33.column.edit.element[dataItem.dsgnrId].style)' " + "title=\"{{'DSGNR.SYS_DSGNR_LBLEDIT00_00005'|translate}}\" " + "ng-disabled = (vc.viewState.G_CREACIOENN_201786.disabled==true?true:false) " + "href='\\#'>" + "<span class='fa fa-pencil'></span>" + "</a>"
-                }, {
-                    name: "destroy",
-                    text: "{{'DSGNR.SYS_DSGNR_LBLDELETE_00008'|translate}}",
-                    cssMap: "{'btn': true, 'btn-default': true, 'cb-row-image-button': true" + ", 'k-grid-delete': !vc.viewState.G_CREACIOENN_201786.disabled}",
-                    template: "<a ng-class='vc.getCssClass(\"destroy\", " + "vc.viewState.QV_TV39_HMX33.column.delete.element[dataItem.uid].style, #:cssMap#, vc.viewState.QV_TV39_HMX33.column.delete.element[dataItem.dsgnrId].style)' " + "title=\"{{'DSGNR.SYS_DSGNR_LBLDELETE_00008'|translate}}\" " + "ng-disabled = (vc.viewState.G_CREACIOENN_201786.disabled==true?true:false) " + ">" + "<span class='fa fa-times'></span>" + "</a>"
-                }],
-                attributes: {
-                    "class": "btn-toolbar"
-                },
-                hidden: designer.enums.hasFlag(designer.constants.mode.Query, $scope.vc.mode) === true ? true : $scope.vc.viewState.QV_TV39_HMX33.column.cmdEdition.hidden,
-                width: Number(sessionStorage.columnSize) || 100
-            });
-            $scope.vc.viewState.QV_TV39_HMX33.toolbar = {
-                create: {
-                    visible: !designer.enums.hasFlag(designer.constants.mode.Query, $scope.vc.mode)
-                }
-            }
-            $scope.vc.grids.QV_TV39_HMX33.toolbar = [{
-                "name": "create",
-                "text": "",
-                "template": "<button class = 'btn btn-default k-grid-add cb-grid-button' " + "ng-if = 'vc.viewState.QV_TV39_HMX33.toolbar.create.visible' " + "ng-disabled = 'vc.viewState.G_CREACIOENN_201786.disabled?true:false'" + "title = \"{{'DSGNR.SYS_DSGNR_LBLNEW000_00013'|translate}}\" >" + "<span class='fa fa-plus'></span>{{'DSGNR.SYS_DSGNR_LBLNEW000_00013'|translate}}</button>"
-            }]; //ViewState - Group: GroupLayout1872
+            $scope.vc.viewState.QV_TV39_HMX33.toolbar = {}
+            $scope.vc.grids.QV_TV39_HMX33.toolbar = []; //ViewState - Group: GroupLayout1872
             $scope.vc.createViewState({
                 id: "G_CREACIOUUN_983786",
                 hasId: true,
@@ -770,40 +731,6 @@ function VC_CREACIONNA_447110(cobisMainModule) {
                 label: 'Group1318',
                 enabled: designer.constants.mode.All,
                 visible: designer.constants.mode.All
-            });
-            //ViewState - Entity: Cuenta, Attribute: banco
-            $scope.vc.createViewState({
-                id: "VA_BANCOTQXNDYWXKM_712786",
-                componentStyle: [],
-                label: "CNTAS.LBL_CNTAS_NROCUENTT_97557",
-                validationCode: 32,
-                readOnly: designer.constants.mode.Query,
-                enabled: designer.constants.mode.All,
-                visible: designer.constants.mode.All
-            });
-            //ViewState - Entity: Cuenta, Attribute: cliente
-            $scope.vc.createViewState({
-                id: "VA_CLIENTEMKAITNNM_466786",
-                componentStyle: [],
-                label: "CNTAS.LBL_CNTAS_CLIENTEFQ_43709",
-                format: "n0",
-                decimals: 0,
-                validationCode: 32,
-                readOnly: designer.constants.mode.None,
-                enabled: designer.constants.mode.All,
-                visible: designer.constants.mode.None
-            });
-            //watch tmpModel - Entity: Cuenta, Attribute: cliente
-            $scope.$watch('vc.model.Cuenta.cliente', function(newValue, oldValue) {
-                if (newValue !== oldValue) {
-                    if (angular.isDefined($scope.vc.tmpModel.Cuenta)) {
-                        $scope.vc.tmpModel.Cuenta.cliente = newValue;
-                    } else {
-                        $scope.vc.tmpModel.Cuenta = {
-                            cliente: newValue
-                        };
-                    }
-                }
             });
             //ViewState - Entity: Cuenta, Attribute: saldo
             $scope.vc.createViewState({

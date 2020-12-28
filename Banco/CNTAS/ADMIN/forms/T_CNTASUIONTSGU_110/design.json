@@ -11,6 +11,29 @@
 			"closeAsString": "F",
 			"commandType": 0,
 			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
+					"customEventId": "CECM_010CM_TCNTASUI_SNN_895",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -221,7 +244,6 @@
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create,Update,Delete"
 							],
 							"allowPaging": false,
 							"allowPagingStr": "F",
@@ -236,11 +258,11 @@
 							"customizationLayer": 0,
 							"customizationLayerDescription": "ECU",
 							"customUrlDialog": null,
-							"deleteCommandEnabled": true,
-							"deleteCommandEnabledStr": "T",
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
 							"dialogTitleLabelId": null,
-							"editCommandEnabled": true,
-							"editCommandEnabledStr": "T",
+							"editCommandEnabled": false,
+							"editCommandEnabledStr": "F",
 							"editMode": "0",
 							"entityName": {
 								"$ref": "../../../../CNTAS/entities/EN_CLIENTEUR_816.json#/name"
@@ -254,8 +276,8 @@
 								"AT30_APELLIDD816",
 								"AT42_IDCLIETE816"
 							],
-							"insertCommandEnabled": true,
-							"insertCommandEnabledStr": "T",
+							"insertCommandEnabled": false,
+							"insertCommandEnabledStr": "F",
 							"isCustomized": false,
 							"modalSize": null,
 							"modeSelection": "None",
@@ -276,7 +298,7 @@
 							"rowCommandAppearance": 0,
 							"style": null,
 							"subModuleIdDialog": null,
-							"taskIdDialog": "1.0.0",
+							"taskIdDialog": null,
 							"taskVersionDialog": null,
 							"typeFormDialog": null,
 							"userControl": {
@@ -579,96 +601,6 @@
 										"aggregate": null,
 										"aggregateId": null,
 										"attribute": {
-											"$ref": "../../../../CNTAS/entities/EN_CUENTAPVV_916.json#/attributes/AT79_BANCOLXJ916"
-										},
-										"attributeValidations": [
-										],
-										"colSpan": 1,
-										"componentInGrid": false,
-										"componentStyle": null,
-										"customEvents": [
-										],
-										"customizationLayer": 0,
-										"customizationLayerDescription": "ECU",
-										"enabled": 4095,
-										"format": "",
-										"include": 4095,
-										"isCustomized": false,
-										"label": {
-											"defaultValue": {
-												"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_NROCUENTT_97557"
-											},
-											"labelId": "LBL_CNTAS_NROCUENTT_97557",
-											"moduleId": "CNTAS"
-										},
-										"maxRecords": null,
-										"name": "banco",
-										"options": 2048,
-										"order": 1,
-										"readOnly": 8,
-										"responsiveLayouts": null,
-										"responsivity": false,
-										"sizeWidthComposite": null,
-										"style": null,
-										"textRows": 0,
-										"userControl": {
-											"type": "I",
-											"userControlId": "TextInputBox"
-										},
-										"visible": 4095,
-										"visualAttributeId": "VA_BANCOTQXNDYWXKM_712786",
-										"width": null,
-										"widthComposite": "D"
-									},
-									{
-										"aggregate": null,
-										"aggregateId": null,
-										"attribute": {
-											"$ref": "../../../../CNTAS/entities/EN_CUENTAPVV_916.json#/attributes/AT96_CLIENTEE916"
-										},
-										"attributeValidations": [
-										],
-										"colSpan": 1,
-										"componentInGrid": false,
-										"componentStyle": null,
-										"customEvents": [
-										],
-										"customizationLayer": 0,
-										"customizationLayerDescription": "ECU",
-										"enabled": 4095,
-										"format": "",
-										"include": 4095,
-										"isCustomized": false,
-										"label": {
-											"defaultValue": {
-												"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_CLIENTEFQ_43709"
-											},
-											"labelId": "LBL_CNTAS_CLIENTEFQ_43709",
-											"moduleId": "CNTAS"
-										},
-										"maxRecords": null,
-										"name": "cliente",
-										"options": 0,
-										"order": 2,
-										"readOnly": null,
-										"responsiveLayouts": null,
-										"responsivity": false,
-										"sizeWidthComposite": null,
-										"style": null,
-										"textRows": 0,
-										"userControl": {
-											"type": "I",
-											"userControlId": "TextInputBox"
-										},
-										"visible": 0,
-										"visualAttributeId": "VA_CLIENTEMKAITNNM_466786",
-										"width": null,
-										"widthComposite": "D"
-									},
-									{
-										"aggregate": null,
-										"aggregateId": null,
-										"attribute": {
 											"$ref": "../../../../CNTAS/entities/EN_CUENTAPVV_916.json#/attributes/AT85_SALDONLN916"
 										},
 										"attributeValidations": [
@@ -711,7 +643,7 @@
 										"maxRecords": null,
 										"name": "saldo",
 										"options": 0,
-										"order": 3,
+										"order": 1,
 										"readOnly": 8,
 										"responsiveLayouts": null,
 										"responsivity": false,
