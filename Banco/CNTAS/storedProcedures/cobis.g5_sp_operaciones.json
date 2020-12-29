@@ -1,0 +1,148 @@
+{
+	"filename": "C:\\Users\\RAGV\\Documents\\SqlDbx\\Scripts\\sp\u0027s\\g5_sp_operaciones.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "g5_sp_operaciones",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn_branch"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_culture"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cuentaOrigen"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cuentaDe"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_tipoCuentaOr"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_tipoCuentaDe"
+			},
+			{
+				"dataType": "float",
+				"direction": "in",
+				"name": "@i_valor"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "825454ad-9a08-4d61-8342-11e7c6a61bda",
+				"columns": [
+					"cuenta",
+					"saldo",
+					"cedula cliente",
+					"nombre cliente",
+					"apellido cliente",
+					"tipo cuenta"
+				],
+				"editMode": false,
+				"queryText": "SELECT \t\u0027cuenta\u0027=ca_banco,\r\n    \t\t\t\t\u0027saldo\u0027=ca_saldo,\r\n    \t\t\t\t\u0027cedula cliente\u0027=cl_cedula,\r\n    \t\t\t\t\u0027nombre cliente\u0027=cl_nombre,\r\n    \t\t\t\t\u0027apellido cliente\u0027=cl_apellido,\r\n    \t\t\t\t\u0027tipo cuenta\u0027=\u0027A\u0027\r\n    \t\tFROM"
+			},
+			{
+				"_idQuery": "2853a141-2aa5-4b05-8ea4-73243672131a",
+				"columns": [
+					"cuenta",
+					"saldo",
+					"cedula cliente",
+					"nombre cliente",
+					"apellido cliente",
+					"tipo cuenta"
+				],
+				"editMode": false,
+				"queryText": "SELECT \t\u0027cuenta\u0027=cc_banco,\r\n    \t\t\t\t\u0027saldo\u0027=cc_saldo,\r\n    \t\t\t\t\u0027cedula cliente\u0027=cl_cedula,\r\n    \t\t\t\t\u0027nombre cliente\u0027=cl_nombre,\r\n    \t\t\t\t\u0027apellido cliente\u0027=cl_apellido,\r\n    \t\t\t\t\u0027tipo cuenta\u0027=\u0027C\u0027\r\n    \t\tFROM"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

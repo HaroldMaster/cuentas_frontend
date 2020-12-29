@@ -1,0 +1,36 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CUENTAXLE_232",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_CUENTAXLE_960",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_VALORHYPT_758",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "CNTAS",
+			"queryId": "Q_CUENAETE_OI16",
+			"related": false,
+			"subModuleId": "ADMIN"
+		},
+		{
+			"moduleId": "CNTAS",
+			"queryId": "Q_CUENLTTT_TQ71",
+			"related": false,
+			"subModuleId": "ADMIN"
+		}
+	]
+}

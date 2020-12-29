@@ -7,6 +7,38 @@
 				{
 					"generated": 4,
 					"moduleId": "CNTAS",
+					"name": "transferenciaForm",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASLPZFSMHK_473",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "CNTAS",
+					"name": "retiroForm",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASLXOASVXM_210",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "CNTAS",
+					"name": "OperacionesForm",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASOOXCWLYB_689",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "CNTAS",
+					"name": "Deposito",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASTUGNQMHY_194",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "CNTAS",
 					"name": "creacionCuenta",
 					"subModuleId": "ADMIN",
 					"taskId": "T_CNTASUIONTSGU_110",

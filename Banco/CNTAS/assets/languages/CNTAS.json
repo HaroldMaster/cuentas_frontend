@@ -4,10 +4,19 @@
 			"LBL_CNTAS_CDULAZLSY_32122": "C\u00e9dula",
 			"LBL_CNTAS_CLIENTEFQ_43709": "Cliente",
 			"LBL_CNTAS_CREARCUNA_51334": "Crear Cuenta",
+			"LBL_CNTAS_DEPOSITRA_51871": "Depositar",
 			"LBL_CNTAS_GUARDARXZ_87389": "Guardar",
+			"LBL_CNTAS_MONTOATIR_52879": "Monto a transferir",
+			"LBL_CNTAS_NROCUENAA_16765": "Nro. Cuenta Destino",
+			"LBL_CNTAS_NROCUENNR_92842": "Nro. Cuenta Origen",
 			"LBL_CNTAS_NROCUENTT_97557": "Nro. Cuenta",
+			"LBL_CNTAS_OKOBLKOBJ_47223": "OK",
+			"LBL_CNTAS_RETIRARUI_85628": "Retirar",
 			"LBL_CNTAS_SALDOZNQH_30727": "Saldo",
-			"LBL_CNTAS_TIPOCUEAT_70539": "Tipo de Cuenta"
+			"LBL_CNTAS_TIPOCUEAT_70539": "Tipo de Cuenta",
+			"LBL_CNTAS_TRANSFECA_27219": "Transferencia",
+			"LBL_CNTAS_VALORADST_90433": "Valor a depositar",
+			"LBL_CNTAS_VALORARRE_44473": "Valor a retirar"
 		},
 		"MSG": {
 		}

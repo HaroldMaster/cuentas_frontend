@@ -3,6 +3,18 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_CNTASLPZFSMHK_473": {
+				"name": "transferenciaForm"
+			},
+			"T_CNTASLXOASVXM_210": {
+				"name": "retiroForm"
+			},
+			"T_CNTASOOXCWLYB_689": {
+				"name": "OperacionesForm"
+			},
+			"T_CNTASTUGNQMHY_194": {
+				"name": "Deposito"
+			},
 			"T_CNTASUIONTSGU_110": {
 				"name": "creacionCuenta"
 			}
@@ -10,6 +22,12 @@
 		"Queries": {
 			"Q_CLIEETET_TO39": {
 				"name": "ClienteQuery"
+			},
+			"Q_CUENAETE_OI16": {
+				"name": "CuentaxClienteDesQuery"
+			},
+			"Q_CUENLTTT_TQ71": {
+				"name": "CuentaxClienteQuery"
 			}
 		},
 		"SubForms": {
@@ -25,8 +43,17 @@
 		"EN_CUENTAPVV_916": {
 			"name": "Cuenta"
 		},
+		"EN_CUENTAXLE_232": {
+			"name": "CuentaxClienteDes"
+		},
+		"EN_CUENTAXLE_960": {
+			"name": "CuentaxCliente"
+		},
 		"EN_TIPOCUENT_995": {
 			"name": "TipoCuenta"
+		},
+		"EN_VALORHYPT_758": {
+			"name": "Valor"
 		}
 	}
 }

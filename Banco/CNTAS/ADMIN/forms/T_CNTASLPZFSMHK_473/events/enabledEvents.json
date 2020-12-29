@@ -1,0 +1,62 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "CM_TCNTASLP_LCA",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "Q_CUENAETE_OI16",
+		"controlName": "CuentaxClienteDesQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_CUENAETE_OI16.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "CuentaxClienteDes",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "Q_CUENLTTT_TQ71",
+		"controlName": "CuentaxClienteQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_CUENLTTT_TQ71.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "CuentaxCliente",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_381232",
+		"controlName": "VA_VAIMAGEBUTTONNN_381232",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "Valor",
+		"eventsType": "visualAttributeEventType"
+	}
+]

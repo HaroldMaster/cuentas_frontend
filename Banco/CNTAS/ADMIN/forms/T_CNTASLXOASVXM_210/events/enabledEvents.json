@@ -1,0 +1,46 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "CM_TCNTASLX_D3S",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "",
+		"eventsType": "commandEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "Q_CUENLTTT_TQ71",
+		"controlName": "CuentaxClienteQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_CUENLTTT_TQ71.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "CuentaxCliente",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_883352",
+		"controlName": "",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "Valor",
+		"eventsType": "visualAttributeEventType"
+	}
+]

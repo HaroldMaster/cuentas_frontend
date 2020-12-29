@@ -9,5 +9,19 @@
 	"EN_CUENTAPVV_916": {
 		"queries": {
 		}
+	},
+	"EN_CUENTAXLE_232": {
+		"queries": {
+			"Q_CUENAETE_OI16": {
+				"$ref": "../ADMIN/queries/Q_CUENAETE_OI16.json#"
+			}
+		}
+	},
+	"EN_CUENTAXLE_960": {
+		"queries": {
+			"Q_CUENLTTT_TQ71": {
+				"$ref": "../ADMIN/queries/Q_CUENLTTT_TQ71.json#"
+			}
+		}
 	}
 }
