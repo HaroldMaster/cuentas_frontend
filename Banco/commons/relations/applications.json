@@ -31,6 +31,14 @@
 				{
 					"generated": 4,
 					"moduleId": "CNTAS",
+					"name": "TransaccionesForm",
+					"subModuleId": "ADMIN",
+					"taskId": "T_CNTASPUEBCXCM_750",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "CNTAS",
 					"name": "Deposito",
 					"subModuleId": "ADMIN",
 					"taskId": "T_CNTASTUGNQMHY_194",

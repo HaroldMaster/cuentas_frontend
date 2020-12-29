@@ -12,6 +12,9 @@
 			"T_CNTASOOXCWLYB_689": {
 				"name": "OperacionesForm"
 			},
+			"T_CNTASPUEBCXCM_750": {
+				"name": "TransaccionesForm"
+			},
 			"T_CNTASTUGNQMHY_194": {
 				"name": "Deposito"
 			},
@@ -28,6 +31,9 @@
 			},
 			"Q_CUENLTTT_TQ71": {
 				"name": "CuentaxClienteQuery"
+			},
+			"Q_TRANNEAN_UO34": {
+				"name": "TransaccionesQuery"
 			}
 		},
 		"SubForms": {
@@ -51,6 +57,9 @@
 		},
 		"EN_TIPOCUENT_995": {
 			"name": "TipoCuenta"
+		},
+		"EN_TRANSACES_931": {
+			"name": "Transacciones"
 		},
 		"EN_VALORHYPT_758": {
 			"name": "Valor"

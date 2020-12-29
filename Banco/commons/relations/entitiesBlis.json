@@ -3,6 +3,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_TRANSACES_931",
+						"moduleId": "CNTAS",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI1645_bli_mostrar_transacciones",
+			"nameBli": "BLI_mostrar_Transacciones"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_VALORHYPT_758",
 						"moduleId": "CNTAS",

@@ -23,5 +23,12 @@
 				"$ref": "../ADMIN/queries/Q_CUENLTTT_TQ71.json#"
 			}
 		}
+	},
+	"EN_TRANSACES_931": {
+		"queries": {
+			"Q_TRANNEAN_UO34": {
+				"$ref": "../ADMIN/queries/Q_TRANNEAN_UO34.json#"
+			}
+		}
 	}
 }

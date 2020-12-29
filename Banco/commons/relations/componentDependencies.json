@@ -26,6 +26,10 @@
 			"labels": [
 			]
 		},
+		"EN_TRANSACES_931": {
+			"labels": [
+			]
+		},
 		"EN_VALORHYPT_758": {
 			"labels": [
 			]
@@ -181,6 +185,45 @@
 			"subForms": [
 			]
 		},
+		"T_CNTASPUEBCXCM_750": {
+			"blis": [
+				"BLI1645_bli_mostrar_transacciones"
+			],
+			"entities": {
+				"EN_CUENTAPVV_916": [
+					"AT79_BANCOLXJ916"
+				],
+				"EN_TRANSACES_931": [
+					"AT11_IDTRANSS931",
+					"AT12_TIPOTRCC931",
+					"AT47_TIPOCUAA931",
+					"AT63_FECHARIZ931",
+					"AT66_CUENTANR931"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_NROCUENTT_97557"
+			],
+			"queries": {
+				"Q_TRANNEAN_UO34": [
+					"",
+					"",
+					"QM_TRANN3NN4N454_04",
+					"QM_TRANN3UO34408_03",
+					"QM_TRANNOOAEO676_01",
+					"QM_TRANNU4EAO932_02",
+					"QM_TRANNUNEOU245_05"
+				]
+			},
+			"subForms": [
+			]
+		},
 		"T_CNTASTUGNQMHY_194": {
 			"blis": [
 				"BLI2284_bli_deposito",
@@ -285,6 +328,10 @@
 			]
 		},
 		"Q_CUENLTTT_TQ71": {
+			"labels": [
+			]
+		},
+		"Q_TRANNEAN_UO34": {
 			"labels": [
 			]
 		}

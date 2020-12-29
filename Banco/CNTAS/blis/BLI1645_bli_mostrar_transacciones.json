@@ -1,0 +1,132 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "Q"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "7067138"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_cuentaOrigen",
+			"type": "CUSTOM",
+			"value": "cuentaO"
+		},
+		{
+			"attributeId": "",
+			"bddType": "float",
+			"dataType": "DOUBLE",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_valor",
+			"type": "CONSTANT",
+			"value": "0"
+		}
+	],
+	"name": "BLI_mostrar_Transacciones",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI1645_bli_mostrar_transacciones",
+	"patternName": "BLI_mostrar_Transacciones",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "a39a6a3b-06e3-4cfa-a841-430525f4e24b",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 3,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "a39a6a3b-06e3-4cfa-a841-430525f4e24b",
+			"columns": [
+				{
+					"attributeId": "AT11_IDTRANSS931",
+					"entityId": "EN_TRANSACES_931",
+					"format": "",
+					"name": "id",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT66_CUENTANR931",
+					"entityId": "EN_TRANSACES_931",
+					"format": "",
+					"name": "cuenta",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT47_TIPOCUAA931",
+					"entityId": "EN_TRANSACES_931",
+					"format": "",
+					"name": "tipo cuenta",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT12_TIPOTRCC931",
+					"entityId": "EN_TRANSACES_931",
+					"format": "",
+					"name": "tipo transaccion",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT63_FECHARIZ931",
+					"entityId": "EN_TRANSACES_931",
+					"format": "dd/MM/yyyy",
+					"name": "fecha",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_TRANSACES_931",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "Cuentas"
+			},
+			"name": "Transacciones"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g5_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

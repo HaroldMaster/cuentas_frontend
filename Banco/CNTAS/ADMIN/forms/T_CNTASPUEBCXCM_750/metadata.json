@@ -1,0 +1,24 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CUENTAPVV_916",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		},
+		{
+			"entityId": "EN_TRANSACES_931",
+			"isContextEntity": null,
+			"moduleId": "CNTAS",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "CNTAS",
+			"queryId": "Q_TRANNEAN_UO34",
+			"related": false,
+			"subModuleId": "ADMIN"
+		}
+	]
+}

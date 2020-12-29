@@ -117,7 +117,7 @@
 					"apellido cliente",
 					"tipo cuenta"
 				],
-				"editMode": false,
+				"editMode": true,
 				"queryText": "SELECT \t\u0027cuenta\u0027=ca_banco,\r\n    \t\t\t\t\u0027saldo\u0027=ca_saldo,\r\n    \t\t\t\t\u0027cedula cliente\u0027=cl_cedula,\r\n    \t\t\t\t\u0027nombre cliente\u0027=cl_nombre,\r\n    \t\t\t\t\u0027apellido cliente\u0027=cl_apellido,\r\n    \t\t\t\t\u0027tipo cuenta\u0027=\u0027A\u0027\r\n    \t\tFROM"
 			},
 			{
@@ -130,8 +130,20 @@
 					"apellido cliente",
 					"tipo cuenta"
 				],
-				"editMode": false,
+				"editMode": true,
 				"queryText": "SELECT \t\u0027cuenta\u0027=cc_banco,\r\n    \t\t\t\t\u0027saldo\u0027=cc_saldo,\r\n    \t\t\t\t\u0027cedula cliente\u0027=cl_cedula,\r\n    \t\t\t\t\u0027nombre cliente\u0027=cl_nombre,\r\n    \t\t\t\t\u0027apellido cliente\u0027=cl_apellido,\r\n    \t\t\t\t\u0027tipo cuenta\u0027=\u0027C\u0027\r\n    \t\tFROM"
+			},
+			{
+				"_idQuery": "a39a6a3b-06e3-4cfa-a841-430525f4e24b",
+				"columns": [
+					"id",
+					"cuenta",
+					"tipo cuenta",
+					"tipo transaccion",
+					"fecha"
+				],
+				"editMode": true,
+				"queryText": "SELECT"
 			}
 		],
 		"variables": [
