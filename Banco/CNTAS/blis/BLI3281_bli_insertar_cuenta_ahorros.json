@@ -34,6 +34,17 @@
 			"value": "7067134"
 		},
 		{
+			"attributeId": "AT96_CLIENTEE916",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_CUENTAPVV_916",
+			"format": "",
+			"name": "@i_cliente",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
 			"attributeId": "AT85_SALDONLN916",
 			"bddType": "float",
 			"dataType": "DOUBLE",
