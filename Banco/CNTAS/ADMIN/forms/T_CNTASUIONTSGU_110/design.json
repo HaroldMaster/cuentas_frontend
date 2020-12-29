@@ -601,6 +601,51 @@
 										"aggregate": null,
 										"aggregateId": null,
 										"attribute": {
+											"$ref": "../../../../CNTAS/entities/EN_CUENTAPVV_916.json#/attributes/AT96_CLIENTEE916"
+										},
+										"attributeValidations": [
+										],
+										"colSpan": 1,
+										"componentInGrid": false,
+										"componentStyle": null,
+										"customEvents": [
+										],
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": 4095,
+										"format": "",
+										"include": 4095,
+										"isCustomized": false,
+										"label": {
+											"defaultValue": {
+												"$ref": "../../../../CNTAS/assets/languages/CNTAS.json#/CNTAS/LBL/LBL_CNTAS_CLIENTEFQ_43709"
+											},
+											"labelId": "LBL_CNTAS_CLIENTEFQ_43709",
+											"moduleId": "CNTAS"
+										},
+										"maxRecords": null,
+										"name": "cliente",
+										"options": 0,
+										"order": 2,
+										"readOnly": 8,
+										"responsiveLayouts": null,
+										"responsivity": false,
+										"sizeWidthComposite": null,
+										"style": null,
+										"textRows": 0,
+										"userControl": {
+											"type": "I",
+											"userControlId": "TextInputBox"
+										},
+										"visible": 4095,
+										"visualAttributeId": "VA_CLIENTEVRZFOKBV_209786",
+										"width": null,
+										"widthComposite": "D"
+									},
+									{
+										"aggregate": null,
+										"aggregateId": null,
+										"attribute": {
 											"$ref": "../../../../CNTAS/entities/EN_CUENTAPVV_916.json#/attributes/AT85_SALDONLN916"
 										},
 										"attributeValidations": [
@@ -674,7 +719,7 @@
 					"version": "1.0.0",
 					"viewId": "VW_CREACIONNU_786"
 				},
-				"metadataVersion": "7.2.0.2019",
+				"metadataVersion": "7.2.0.2020",
 				"modules": [
 					{
 						"moduleId": "CNTAS"
