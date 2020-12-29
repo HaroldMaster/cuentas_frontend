@@ -1,0 +1,44 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_348318",
+		"controlName": "VA_VAIMAGEBUTTONNN_348318",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_487318",
+		"controlName": "VA_VAIMAGEBUTTONNN_487318",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_560318",
+		"controlName": "VA_VAIMAGEBUTTONNN_560318",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "visualAttributeEventType"
+	}
+]

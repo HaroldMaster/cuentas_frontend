@@ -14,12 +14,261 @@
 			"labels": [
 			]
 		},
+		"EN_CUENTAXLE_232": {
+			"labels": [
+			]
+		},
+		"EN_CUENTAXLE_960": {
+			"labels": [
+			]
+		},
 		"EN_TIPOCUENT_995": {
+			"labels": [
+			]
+		},
+		"EN_TRANSACES_931": {
+			"labels": [
+			]
+		},
+		"EN_VALORHYPT_758": {
 			"labels": [
 			]
 		}
 	},
 	"Forms": {
+		"T_CNTASLPZFSMHK_473": {
+			"blis": [
+				"BLI6540_bli_transferencia",
+				"BLI9594_bli_buscarcuenta"
+			],
+			"entities": {
+				"EN_CUENTAXLE_232": [
+					"AT10_NOMBREUO232",
+					"AT20_TIPOCUAA232",
+					"AT24_SALDOTUT232",
+					"AT72_NUMCUENA232",
+					"AT79_CEDULAXI232",
+					"AT87_APELLIOO232"
+				],
+				"EN_CUENTAXLE_960": [
+					"AT28_SALDOPNE960",
+					"AT49_NUMCUEAN960",
+					"AT57_APELLILL960",
+					"AT57_CEDULACC960",
+					"AT79_TIPOCUTN960",
+					"AT89_NOMBRELL960"
+				],
+				"EN_VALORHYPT_758": [
+					"AT24_CUENTAOS758",
+					"AT55_VALORWZI758",
+					"AT78_CUENTAGO758"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_MONTOATIR_52879",
+				"LBL_CNTAS_NROCUENAA_16765",
+				"LBL_CNTAS_NROCUENNR_92842",
+				"LBL_CNTAS_OKOBLKOBJ_47223"
+			],
+			"queries": {
+				"Q_CUENAETE_OI16": [
+					"",
+					"",
+					"",
+					"",
+					"QM_CUENAE1EIT960_05",
+					"QM_CUENAE6TI6516_03",
+					"QM_CUENAEE6TE355_02",
+					"QM_CUENAOOOOE709_06",
+					"QM_CUENATE66T756_01",
+					"QM_CUENATOE1O840_04",
+					"QM_CUENL117TT327_05",
+					"QM_CUENLT1T17479_04",
+					"QM_CUENLT7T77328_03",
+					"QM_CUENLT7TTT274_06",
+					"QM_CUENLTTQTT290_07",
+					"QM_CUENLTTTTQ951_02"
+				],
+				"Q_CUENLTTT_TQ71": [
+					"",
+					"",
+					"",
+					"",
+					"QM_CUENAE1EIT960_05",
+					"QM_CUENAE6TI6516_03",
+					"QM_CUENAEE6TE355_02",
+					"QM_CUENAOOOOE709_06",
+					"QM_CUENATE66T756_01",
+					"QM_CUENATOE1O840_04",
+					"QM_CUENL117TT327_05",
+					"QM_CUENLT1T17479_04",
+					"QM_CUENLT7T77328_03",
+					"QM_CUENLT7TTT274_06",
+					"QM_CUENLTTQTT290_07",
+					"QM_CUENLTTTTQ951_02"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_CNTASLXOASVXM_210": {
+			"blis": [
+				"BLI9126_bli_retiro",
+				"BLI9594_bli_buscarcuenta"
+			],
+			"entities": {
+				"EN_CUENTAXLE_960": [
+					"AT28_SALDOPNE960",
+					"AT49_NUMCUEAN960",
+					"AT57_APELLILL960",
+					"AT57_CEDULACC960",
+					"AT79_TIPOCUTN960",
+					"AT89_NOMBRELL960"
+				],
+				"EN_VALORHYPT_758": [
+					"AT55_VALORWZI758",
+					"AT78_CUENTAGO758"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_NROCUENTT_97557",
+				"LBL_CNTAS_OKOBLKOBJ_47223",
+				"LBL_CNTAS_VALORARRE_44473"
+			],
+			"queries": {
+				"Q_CUENLTTT_TQ71": [
+					"",
+					"",
+					"",
+					"",
+					"QM_CUENL117TT327_05",
+					"QM_CUENLT1T17479_04",
+					"QM_CUENLT7T77328_03",
+					"QM_CUENLT7TTT274_06",
+					"QM_CUENLTTQTT290_07",
+					"QM_CUENLTTTTQ951_02"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_CNTASOOXCWLYB_689": {
+			"blis": [
+			],
+			"entities": {
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_DEPOSITRA_51871",
+				"LBL_CNTAS_RETIRARUI_85628",
+				"LBL_CNTAS_TRANSFECA_27219"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_CNTASPUEBCXCM_750": {
+			"blis": [
+				"BLI1645_bli_mostrar_transacciones"
+			],
+			"entities": {
+				"EN_CUENTAPVV_916": [
+					"AT79_BANCOLXJ916"
+				],
+				"EN_TRANSACES_931": [
+					"AT11_IDTRANSS931",
+					"AT12_TIPOTRCC931",
+					"AT47_TIPOCUAA931",
+					"AT63_FECHARIZ931",
+					"AT66_CUENTANR931"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_NROCUENTT_97557"
+			],
+			"queries": {
+				"Q_TRANNEAN_UO34": [
+					"",
+					"",
+					"QM_TRANN3NN4N454_04",
+					"QM_TRANN3UO34408_03",
+					"QM_TRANNOOAEO676_01",
+					"QM_TRANNU4EAO932_02",
+					"QM_TRANNUNEOU245_05"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_CNTASTUGNQMHY_194": {
+			"blis": [
+				"BLI2284_bli_deposito",
+				"BLI9594_bli_buscarcuenta"
+			],
+			"entities": {
+				"EN_CUENTAXLE_960": [
+					"AT28_SALDOPNE960",
+					"AT49_NUMCUEAN960",
+					"AT57_APELLILL960",
+					"AT57_CEDULACC960",
+					"AT79_TIPOCUTN960",
+					"AT89_NOMBRELL960"
+				],
+				"EN_VALORHYPT_758": [
+					"AT55_VALORWZI758",
+					"AT78_CUENTAGO758"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_CNTAS_NROCUENTT_97557",
+				"LBL_CNTAS_OKOBLKOBJ_47223",
+				"LBL_CNTAS_VALORADST_90433"
+			],
+			"queries": {
+				"Q_CUENLTTT_TQ71": [
+					"",
+					"",
+					"QM_CUENL117TT327_05",
+					"QM_CUENLT1T17479_04",
+					"QM_CUENLT7T77328_03",
+					"QM_CUENLT7TTT274_06",
+					"QM_CUENLTTQTT290_07",
+					"QM_CUENLTTTTQ951_02"
+				]
+			},
+			"subForms": [
+			]
+		},
 		"T_CNTASUIONTSGU_110": {
 			"blis": [
 				"BLI9427_bli_buscarcliente"
@@ -71,6 +320,18 @@
 	},
 	"Queries": {
 		"Q_CLIEETET_TO39": {
+			"labels": [
+			]
+		},
+		"Q_CUENAETE_OI16": {
+			"labels": [
+			]
+		},
+		"Q_CUENLTTT_TQ71": {
+			"labels": [
+			]
+		},
+		"Q_TRANNEAN_UO34": {
 			"labels": [
 			]
 		}

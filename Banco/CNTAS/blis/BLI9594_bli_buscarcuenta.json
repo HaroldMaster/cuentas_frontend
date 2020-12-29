@@ -1,0 +1,148 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_VALORHYPT_758",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "Cuentas"
+			},
+			"name": "Valor"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "S"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "7067138"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_cuentaOrigen",
+			"type": "CUSTOM",
+			"value": "cuentaO"
+		},
+		{
+			"attributeId": "",
+			"bddType": "float",
+			"dataType": "DOUBLE",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_valor",
+			"type": "CONSTANT",
+			"value": "0"
+		}
+	],
+	"name": "BLI_buscarCuenta",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI9594_bli_buscarcuenta",
+	"patternName": "BLI_buscarCuenta",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "825454ad-9a08-4d61-8342-11e7c6a61bda",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "SELECT \t\u0027cuenta\u0027=ca_banco,\r\n    \t\t\t\t\u0027saldo\u0027=ca_saldo,\r\n    \t\t\t\t\u0027cedula cliente\u0027=cl_cedula,\r\n    \t\t\t\t\u0027nombre cliente\u0027=cl_nombre,\r\n    \t\t\t\t\u0027apellido cliente\u0027=cl_apellido,\r\n    \t\t\t\t\u0027tipo cuenta\u0027=\u0027A\u0027\r\n    \t\tFROM"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "825454ad-9a08-4d61-8342-11e7c6a61bda",
+			"columns": [
+				{
+					"attributeId": "AT49_NUMCUEAN960",
+					"entityId": "EN_CUENTAXLE_960",
+					"format": "",
+					"name": "cuenta",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT28_SALDOPNE960",
+					"entityId": "EN_CUENTAXLE_960",
+					"format": "",
+					"name": "saldo",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT57_CEDULACC960",
+					"entityId": "EN_CUENTAXLE_960",
+					"format": "",
+					"name": "cedula cliente",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT89_NOMBRELL960",
+					"entityId": "EN_CUENTAXLE_960",
+					"format": "",
+					"name": "nombre cliente",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT57_APELLILL960",
+					"entityId": "EN_CUENTAXLE_960",
+					"format": "",
+					"name": "apellido cliente",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT79_TIPOCUTN960",
+					"entityId": "EN_CUENTAXLE_960",
+					"format": "",
+					"name": "tipo cuenta",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CUENTAXLE_960",
+			"module": {
+				"moduleId": "CNTAS",
+				"moduleName": "Cuentas"
+			},
+			"name": "CuentaxCliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.g5_sp_operaciones",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

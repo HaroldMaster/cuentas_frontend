@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_TRANNEAN_UO34",
+		"controlName": "TransaccionesQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../CNTAS/ADMIN/queries/Q_TRANNEAN_UO34.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Transacciones",
+		"eventsType": "queryEventType"
+	}
+]
