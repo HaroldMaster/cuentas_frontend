@@ -19,7 +19,7 @@
 					"actionType": "CUSTOM"
 				}
 			],
-			"executionType": 3,
+			"executionType": 7,
 			"queryEventType": {
 				"availableExecutionType": 7,
 				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
@@ -30,12 +30,11 @@
 	],
 	"customizationLayer": 0,
 	"customizationLayerDescription": "ECU",
-	"hasEvents": true,
 	"id": {
 		"queryId": "Q_TRANNEAN_UO34",
 		"version": "1.0.0"
 	},
-	"isAutomatic": true,
+	"isAutomatic": false,
 	"isImported": false,
 	"mainEntityId": "EN_TRANSACES_931",
 	"mainEntityModule": "CNTAS",
@@ -52,12 +51,12 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_TRANSACES_931.json#/attributes/AT12_TIPOTRCC931"
 			},
-			"attributeQuery": "tipoTransaccion",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
 			"order": "3",
 			"orderBy": null,
@@ -73,12 +72,12 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_TRANSACES_931.json#/attributes/AT66_CUENTANR931"
 			},
-			"attributeQuery": "cuenta",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
 			"order": "2",
 			"orderBy": null,
@@ -94,12 +93,12 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_TRANSACES_931.json#/attributes/AT11_IDTRANSS931"
 			},
-			"attributeQuery": "idTransaccion",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
 			"order": "0",
 			"orderBy": null,
@@ -115,12 +114,12 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_TRANSACES_931.json#/attributes/AT63_FECHARIZ931"
 			},
-			"attributeQuery": "fecha",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
 			"order": "1",
 			"orderBy": null,
@@ -136,12 +135,12 @@
 			"attribute": {
 				"$ref": "../../../CNTAS/entities/EN_TRANSACES_931.json#/attributes/AT47_TIPOCUAA931"
 			},
-			"attributeQuery": "tipoCuenta",
 			"customizationLayer": "",
 			"customizationLayerDescription": "",
 			"defaultValue": null,
 			"defaultValueDataType": null,
 			"function": null,
+			"label": null,
 			"operator": null,
 			"order": "4",
 			"orderBy": null,

@@ -58,5 +58,33 @@
 		],
 		"entityName": "Valor",
 		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "valor",
+		"controlId": "VA_VALORBMGCTFEMRF_930232",
+		"controlName": "valor",
+		"controlType": "TextInputBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Valor",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_TRANSFERIC_302473",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]

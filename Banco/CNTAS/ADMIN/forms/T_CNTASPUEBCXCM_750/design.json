@@ -231,6 +231,8 @@
 							"query": {
 								"$ref": "../../../../CNTAS/ADMIN/queries/Q_TRANNEAN_UO34.json#"
 							},
+							"queryId": "Q_TRANNEAN_UO34",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_OQ34_TWV45",

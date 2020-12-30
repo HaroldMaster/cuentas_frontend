@@ -7,7 +7,7 @@
 		"customEvents": [
 			{
 				"eventName": "executeCommand",
-				"executionType": 3
+				"executionType": 7
 			}
 		],
 		"entityName": "",
@@ -42,5 +42,19 @@
 		],
 		"entityName": "Valor",
 		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_DEPOSITOWN_298194",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]

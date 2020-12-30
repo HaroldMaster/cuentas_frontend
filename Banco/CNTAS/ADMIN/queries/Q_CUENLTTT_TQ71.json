@@ -19,7 +19,7 @@
 					"actionType": "CUSTOM"
 				}
 			],
-			"executionType": 3,
+			"executionType": 7,
 			"queryEventType": {
 				"availableExecutionType": 7,
 				"description": "Sobreescribe la ejecuci\u00f3n de un Query",

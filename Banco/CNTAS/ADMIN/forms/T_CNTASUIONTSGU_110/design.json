@@ -92,6 +92,23 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
+				{
+					"customEventId": "CEVC_008T_CNTASUIONTSGU_110_832",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 1,
+						"description": "Se ejecuta antes de renderizar un ViewContainer, permite realizar personalizaciones visuales",
+						"eventId": 8,
+						"name": "Render"
+					}
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -612,7 +629,7 @@
 										],
 										"customizationLayer": 0,
 										"customizationLayerDescription": "ECU",
-										"enabled": 4095,
+										"enabled": null,
 										"format": "",
 										"include": 4095,
 										"isCustomized": false,
@@ -627,7 +644,7 @@
 										"name": "cliente",
 										"options": 0,
 										"order": 2,
-										"readOnly": 8,
+										"readOnly": null,
 										"responsiveLayouts": null,
 										"responsivity": false,
 										"sizeWidthComposite": null,
@@ -712,7 +729,7 @@
 						"name": "GroupLayout1872",
 						"order": 3,
 						"style": null,
-						"visible": 4095
+						"visible": null
 					}
 				],
 				"id": {

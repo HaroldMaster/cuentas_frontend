@@ -39,6 +39,7 @@
 		"T_CNTASLPZFSMHK_473": {
 			"blis": [
 				"BLI6540_bli_transferencia",
+				"BLI8023_bli_buscarcuentadestino",
 				"BLI9594_bli_buscarcuenta"
 			],
 			"entities": {

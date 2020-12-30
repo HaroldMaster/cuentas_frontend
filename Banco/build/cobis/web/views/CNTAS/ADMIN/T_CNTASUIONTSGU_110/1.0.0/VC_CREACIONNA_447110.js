@@ -48,7 +48,7 @@ function VC_CREACIONNA_447110(cobisMainModule) {
                 hasTemporaryDataSupport: false,
                 hasInitDataSupport: false,
                 hasChangeInitDataSupport: false,
-                hasSearchRenderEvent: false,
+                hasSearchRenderEvent: true,
                 ejecTemporaryData: false,
                 ejecInitData: false,
                 ejecChangeInitData: false,
@@ -668,7 +668,7 @@ function VC_CREACIONNA_447110(cobisMainModule) {
                 componentStyle: [],
                 label: 'GroupLayout1872',
                 enabled: designer.constants.mode.All,
-                visible: designer.constants.mode.All
+                visible: designer.constants.mode.None
             });
             $scope.vc.model.TipoCuenta = {
                 tipo: $scope.vc.channelDefaultValues("TipoCuenta", "tipo")
@@ -764,8 +764,8 @@ function VC_CREACIONNA_447110(cobisMainModule) {
                 format: "n0",
                 decimals: 0,
                 validationCode: 32,
-                readOnly: designer.constants.mode.Query,
-                enabled: designer.constants.mode.All,
+                readOnly: designer.constants.mode.None,
+                enabled: designer.constants.mode.None,
                 visible: designer.constants.mode.All
             });
             //watch tmpModel - Entity: Cuenta, Attribute: cliente

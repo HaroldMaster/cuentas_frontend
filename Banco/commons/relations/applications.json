@@ -5,7 +5,7 @@
 		"forms": {
 			"CNTAS": [
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "CNTAS",
 					"name": "transferenciaForm",
 					"subModuleId": "ADMIN",
@@ -13,7 +13,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "CNTAS",
 					"name": "retiroForm",
 					"subModuleId": "ADMIN",
@@ -21,7 +21,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "CNTAS",
 					"name": "OperacionesForm",
 					"subModuleId": "ADMIN",
@@ -29,7 +29,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "CNTAS",
 					"name": "TransaccionesForm",
 					"subModuleId": "ADMIN",
@@ -37,7 +37,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "CNTAS",
 					"name": "Deposito",
 					"subModuleId": "ADMIN",
@@ -45,7 +45,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "CNTAS",
 					"name": "creacionCuenta",
 					"subModuleId": "ADMIN",

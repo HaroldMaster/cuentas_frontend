@@ -42,5 +42,33 @@
 		],
 		"entityName": "Valor",
 		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "valor",
+		"controlId": "VA_VALORCYYXCIEILA_651352",
+		"controlName": "valor",
+		"controlType": "TextInputBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "Valor",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_RETIRONYEL_755210",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "render",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]
